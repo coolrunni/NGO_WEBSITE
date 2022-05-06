@@ -1,0 +1,653 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.carousel-inner {
+    margin-top:-4% ;
+    left: 0;
+}
+.carousel-inner h1{
+    font-family:fantasy;
+}
+.carousel-inner img{
+    width: 120%;
+    height: 106vh;
+    background-size: cover;
+}
+.carousel-inner h1{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 10%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.carousel-inner h3{
+    font-family:fantasy;
+    position: absolute;
+    z-index: 1;
+    font-size: 50px;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    text-transform: uppercase;
+}
+.inner{
+    display: flex;
+    position: absolute;
+}
+.carousel-inner p{
+    font-family: cursive;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    top: 80%;
+    left: 10%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.carousel-inner button{
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 2px #000000;
+    top: 80%;
+    left: 60%;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #95850a;
+    border: 0;
+}
+.carousel-inner button:hover{
+    background-color: #e67e22;
+    transition: 0.3s;
+    padding: 5px 20px;
+}
+
+
+.carousel-item p{
+    position: absolute;
+    z-index: 20;
+    color: brown;
+    height: 200px;
+}
+
+
+
+#carouselExampleControls {
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(rgba(34, 34, 34, 0.57), rgba(34, 34, 34, 0.69)), url(background/pexels-laura-link-4052739.jpg);
+    background-repeat: no-repeat;      
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-nav{
+    position: fixed;
+    /*float: right;*/
+    list-style: none;
+    margin-left: 1%;
+    display: flex;
+    z-index: 2;
+    background-color: #d8d11d;
+}
+.main-nav li{
+    margin-left: 40px;
+    padding: 1.4% 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    position: relative;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+
+
+
+/*dialong part*/
+
+.dialog_box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d8d11d;
+    height: 20vh;
+}
+.dialog_box h2{
+    margin: 7% 0;
+}
+.dialog_box p
+{
+    margin: -5% 0;
+}
+.dialog_box button{
+    margin: 30% 0;
+    padding: 10% 30%;
+    background-color: #e67e22;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #000000;
+    border: 0;
+}
+
+
+.dialog_box button:hover{
+    background-color: #ff0000;
+    transition: 0.5s;
+}
+
+
+/*---Cause column--- */
+
+.Columns{
+    height: 100vh;
+    margin-bottom: 5%;
+}
+
+.heading h1{
+    margin: 5% 32%;
+    text-transform: uppercase;
+    border-bottom: 5px solid brown;
+}
+
+
+
+.Mcolumn {
+    display: flex;
+}
+.d1{
+    /*background-color: aqua;*/
+    flex-basis: 33.33%;
+    margin: 0 3%;
+}
+.d2{
+    /*-color: black;*/
+    flex-basis: 33.33%;
+    margin: 0 3%;
+}
+.d3{
+    /*background-color: blue;*/
+    flex-basis: 33.33%;
+    margin: 0 3%;
+}
+
+
+
+
+.d1_image img{
+    margin: 7% 0;
+    height: 15vh;
+}
+
+.d2_image img{
+    margin: 7% 0;
+    height: 15vh;
+}
+
+.d3_image img{
+    margin: 7% 0;
+    height: 15vh;
+}
+
+.d1_text p{
+    padding: 3% 6%;
+}
+.d2_text p{
+    padding: 3% 6%;
+}
+.d3_text p{
+    padding: 3% 6%;
+}
+
+.d1_text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95850a;
+    padding: 2% 9%;
+    border: 0;
+}
+
+.d1_text button:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.d2_text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95850a;
+    padding: 2% 9%;
+    border: 0;
+}
+
+.d2_text button:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.d3_text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95850a;
+    padding: 2% 9%;
+    border: 0;
+}
+
+.d3_text button:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/*--Info column--*/
+
+.info_col {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+.Info{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.Info h2{
+    padding: 2% 5%;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e67e22;
+    border-top: 2px solid #e67e22;
+}
+
+
+.left_info {
+    padding: 3% 5%;
+    flex-basis: 45%;
+    /*background-color: aqua;*/
+}
+
+.left_info h4{
+    color: #e67e22;
+}
+
+.left_info h3{
+    font-size: 25px;
+}
+
+.inside_left1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+
+.left_to_left_col {
+    display: flex;
+}
+
+.inside_left2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.right_info {
+    flex-basis: 45%;
+    padding: 2% 5%;
+    /*background-color: blue;*/
+}
+
+
+.left_to_left_col2 {
+    display: flex;
+}
+
+.right_to_left_col4{
+    display: flex;
+}
+
+.left_to_left_col i{
+    font-size: 35px;
+    margin-right: 20%;
+}
+.left_to_left_col p{
+    margin-top: 0;
+}
+
+
+.left_to_left_col2 i{
+    font-size: 35px;
+    margin-right: 10%;
+}
+.left_to_left_col2 p{
+    margin-top: 0;
+}
+
+
+.left_to_left_col3 i{
+    font-size: 35px;
+    margin-right: 10%;
+}
+.left_to_left_col3 p{
+    margin-top: 0;
+}
+
+
+.right_to_left_col4 i{
+    font-size: 35px;
+    margin-right: 10%;
+}
+.right_to_left_col4 p{
+    margin-top: 0;
+}
+
+
+
+
+
+/*---footer---*/
+
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(242, 12, 12, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-col p,h4{
+    color: #fff;
+}
+
+.phone{
+    width: 24px;
+    height: 3vh;
+    position: absolute;
+}
+.phonenumber{
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+
+.add{
+    width: 20px;
+    height: 3vh;
+    position: absolute;
+    
+}
+
+.Address{
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+
+.mail{
+    width: 18px;
+    height: 3vh;
+    position: absolute;
+}
+.email{
+    margin-left: 12%;
+}
+
+.footer-col{
+    margin-right: 10%;
+}
+.pop{
+    margin-right: 0;
+}
+
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+.left_to_left_col3 {
+    display: flex;
+}
+
+
+.inside_left1 span{
+    color: #e67e22;
+    font-weight: 700;
+}
+.inside_left2 span{
+    color: #e67e22;
+    font-weight: 700;
+}
+
+.right_info_head h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+.right_info_head p{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+
+
+
+/*---main responsive----*/
+@media(max-width: 767px){
+    footer{
+        margin-top: 100%;
+    }
+    .carousel-inner img{
+        height: 70vh;
+        width: 0%;
+    }
+    .carousel-inner h1{
+        margin-top: -5%;
+        font-size: 35px;
+    }
+    .carousel-inner h3{
+        margin-top: -5%;
+        font-size: 25px;
+    }
+    .inner_text button{
+        padding:1% 1.5%;
+    }
+    .inner_text p{
+        margin-top: -10%;
+    }
+    .dialog_box {
+        display: block;
+        margin-top: -7%;
+        height: 45vh;
+    }
+    .dialog_box h2{
+        font-size: 40px;
+        padding: 2% 4%;
+    }
+    .dialog_box p{
+        font-size: 30px;
+        padding: 2% 4%;
+    }
+    .dialog_box button{
+        font-size: 100%;
+        padding: 3% 6%;
+        margin: 10% 30%;
+    }
+    .Video iframe{
+        width: 100%;
+    }
+    .d1,.d2,.d3{
+        margin-top: 15%;
+    }
+    .Mcolumn {
+        display: block;
+    }
+    .info_col{
+        height: 130vh;
+    }
+    .Info{
+        margin-top: 350%;
+    }
+    
+    .Info h2{
+        font-size: 50px;
+    }
+    .info_col{
+        display: block;
+    }
+    header {
+        height: 70vh;
+    }
+    .left_info h4{
+        font-size: 45px;
+    }
+    .left_info h3{
+        font-size: 35px;
+    }
+    .left_info p{
+        font-size: 25px;
+    }
+    .main-nav li{
+        padding: 1% 0.8%;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .inner_text{
+        display: block;
+    }
+    .inner_text button{
+        margin-top: 10%;
+    }
+    #carouselExampleControls {
+        width: 100%;
+        margin: 0 0;
+    }
+    #carouselExampleControls button{
+        margin-left: -10%;
+    }
+    .Columns{
+        margin-top: 30%;
+    }
+}
+
+
+
